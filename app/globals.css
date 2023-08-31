@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&family=Montserrat:wght@700&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&family=Montserrat:wght@700&display=swap');
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -16,12 +18,98 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.image {
+  background-image: url('../public/Postrelicioso.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 400px;
+  width: 400px;
 }
+
+
+
+
+
+
+
+.zindex{
+  z-index: 9999999;
+}
+
+.blurback{
+  
+}
+
+.blurback.active {
+  @apply brightness-50 blur-sm 
+}
+
+
+*{
+  font-family: 'Montserrat Alternates', 'Montserrat', 'Poppins', sans-serif;
+}
+
+
+.gradient{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  background: rgb(227,233,237);
+background: linear-gradient(90deg, rgba(227,233,237,1) 2%, rgba(233,237,240,1) 32%, rgba(237,240,243,1) 63%, rgba(238,241,244,1) 100%);
+}
+
+
+
+
+
+
+
+
+.hoverbtn:hover {
+  color: #ff014f;
+  font-weight:500;
+  border: 0;
+  transition: all 0.5s;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  background: rgb(227,233,237);
+background: linear-gradient(90deg, rgba(227,233,237,1) 2%, rgba(233,237,240,1) 32%, rgba(237,240,243,1) 63%, rgba(238,241,244,1) 100%);
+
+}
+
+.hoverbtn1 {
+  color: #ff014f;
+  font-weight:500;
+  border: 0;
+  transition: all 0.5s;
+  border-radius: 10px;
+  /* box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px; */
+  background: rgb(227,233,237);
+background: linear-gradient(90deg, rgba(227,233,237,1) 2%, rgba(233,237,240,1) 32%, rgba(237,240,243,1) 63%, rgba(238,241,244,1) 100%);
+
+}
+
+  
+
+
+.hovericon:hover{
+  background-color:#ff014f;
+  color:white;
+}
+
+.gradient2:hover {
+  background-color:#e70b30;
+  color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
