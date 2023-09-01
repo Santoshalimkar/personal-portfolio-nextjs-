@@ -4,7 +4,6 @@ import Resumesection from "./Components/Resumesection";
 import {NextUIProvider} from "@nextui-org/react";
 import Project from "./Project/page";
 import Contact from "./Contact/page"
-import Footer from "./Components/Footer";
 
 
 

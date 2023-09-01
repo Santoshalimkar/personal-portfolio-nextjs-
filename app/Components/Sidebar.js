@@ -17,7 +17,7 @@ export const ToggleSidebar = () => {
 };
 
 export const Menuicon = ({ toggle, setToggle }) => {
-  const toggleSidebar = () => {
+   const toggleSidebar = () => {
     const sidebar = document.querySelector('.blurback');
     const activeClass = 'active';
     sidebar.classList.toggle(activeClass);
