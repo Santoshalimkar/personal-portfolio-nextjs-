@@ -104,7 +104,7 @@ export default function Navbar() {
             <div>
               <Navlink setToggle={setToggle} toggle={toggle} />
             </div>
-            <div className="absolute bottom-0">
+            <div className="absolute bottom-6">
               <div className="bg-[#ecf0f3] flex justify-center items-center w-full p-2 h-30 gap-4 mx-auto ">
                 <div>
                   <Image
