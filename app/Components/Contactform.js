@@ -56,7 +56,7 @@ const Contactform = () => {
       <div className="p-8">
         <div className="flex justify-around gap-4 md:gap-0 items-center md:flex-row flex-col w-full">
           <div className="w-full p-2">
-            <p className="uppercase tracking-widest text-xs font-thin mb-4 leading-3 md:text-[#3c3e41] text-black">
+            <p className="uppercase tracking-widest text-xs font-medium md:font-thin mb-4 leading-3 md:text-[#3c3e41] text-black">
               YOUR NAME
             </p>
             <input
@@ -68,7 +68,7 @@ const Contactform = () => {
             />
           </div>
           <div className="w-full p-2">
-            <p className="uppercase tracking-widest text-xs font-thin mb-4 leading-3 md:text-[#3c3e41] text-black">
+            <p className="uppercase tracking-widest text-xs font-medium md:font-thin mb-4 leading-3 md:text-[#3c3e41] text-black">
               PHONE NUMBER
             </p>
             <input
@@ -82,7 +82,7 @@ const Contactform = () => {
         </div>
 
         <div className="mt-4 p-2 ">
-        <p className="uppercase tracking-widest text-xs font-thin mb-4 leading-3 md:text-[#3c3e41] text-black">
+        <p className="uppercase tracking-widest text-xs font-medium md:font-thinmb-4 leading-3 md:text-[#3c3e41] text-black">
              EMAIL
             </p>
             <input
@@ -94,7 +94,7 @@ const Contactform = () => {
             />
         </div>
         <div className="mt-4 p-2">
-        <p className="uppercase tracking-widest text-xs font-thin mb-4 leading-3 md:text-[#3c3e41] text-black">
+        <p className="uppercase tracking-widest text-xs font-medium md:font-thin mb-4 leading-3 md:text-[#3c3e41] text-black">
              SUBJECT
             </p>
             <input
@@ -106,7 +106,7 @@ const Contactform = () => {
             />
         </div>
         <div className="mt-4 p-2">
-        <p className="uppercase tracking-widest text-xs font-thin mb-4 leading-3 md:text-[#3c3e41] text-black">
+        <p className="uppercase tracking-widest text-xs font-medium md:font-thin mb-4 leading-3 md:text-[#3c3e41] text-black">
              YOUR MESSAGE
             </p>
             <textarea
