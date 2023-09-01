@@ -43,7 +43,9 @@ function Herosection() {
             </div>
             <div> 
             <p className='md:w-[75%] lg:w-[75%]  font-normal text-sm text-[#3c3e41] mb-4'>
-            I'm excited about the potential to collaborate on exciting projects. Whether it's a dynamic web application, an e-commerce platform, or a custom solution, I'm ready to bring ideas to life. Let's discuss how I can contribute to your next venture!
+            Im excited about the potential to collaborate on exciting projects. Whether its 
+            a dynamic web application, an e-commerce platform, or a custom solution, Im ready to
+             bring ideas to life. Lets discuss how I can contribute to your next venture!
             </p>
             </div>
             
