@@ -11,7 +11,7 @@ import { usePathname } from "next/navigation";
 
 
 
-export const toggleSidebar = () => {
+export const ToggleSidebar = () => {
   const [toggle, setToggle] = useState(false);
   return { toggle, setToggle };
 };

@@ -4,7 +4,7 @@ import Image from "next/image";
 import perpic from "../../public/perpic.jpeg"
 import { Menuicon } from '../Components/Sidebar';
 import { Closeicon } from '../Components/Sidebar';
-import { toggleSidebar } from '../Components/Sidebar';
+import { ToggleSidebar } from '../Components/Sidebar';
 import { Navlink } from '../Components/Sidebar';
 import { usePathname } from 'next/navigation';
 import { motion } from "framer-motion"
@@ -14,7 +14,7 @@ import { motion } from "framer-motion"
 export default function Navbar() {
   const pathname = usePathname()
 
-const {toggle,setToggle}=toggleSidebar()
+const {toggle,setToggle}=ToggleSidebar()
   
   const style={
     navlink:'uppercase hover:no-underline  text-gray-500 cursor-pointer hover:text-gray-300  font-semibold text-[0.8rem]  ',

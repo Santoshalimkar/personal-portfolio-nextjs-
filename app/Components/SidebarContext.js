@@ -1,11 +1,11 @@
 'use client'
 import React, { createContext, useState } from 'react';
-import { toggleSidebar } from './Sidebar';
+import { ToggleSidebar } from './Sidebar';
 
 const SidebarContext = createContext();
 
 const SidebarProvider = ({ children }) => {
-  const {toggle, setToggle}=toggleSidebar()
+  const {toggle, setToggle}=ToggleSidebar()
 
   return (
     <SidebarContext.Provider value={{ toggle, setToggle }}>
