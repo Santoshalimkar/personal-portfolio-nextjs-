@@ -56,7 +56,7 @@ const Certificate = () => {
   return (
     <div className='h-auto flex flex-wrap gap-8 justify-center   mt-8 p-12'>
     {data.map((data,index)=>(
-          <div className='hovericon bg-[#eef1f4] shadow-lg h-[22rem] w-[22rem] transition-colors duration-400 mb-8 rounded-lg p-4 '>
+          <div key={index} className='hovericon bg-[#eef1f4] shadow-lg h-[22rem] w-[22rem] transition-colors duration-400 mb-8 rounded-lg p-4 '>
         <motion.div
           initial={{y:0}}
           whileHover={{y:-20}}

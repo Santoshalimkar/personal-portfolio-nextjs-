@@ -15,6 +15,7 @@ function Skillsside() {
     <div className="flex gap-6 flex-col">
     {frontend.map((data,index)=>(
      <Progress
+     key={index}
       size="md"
       radius="sm"
       classNames={{

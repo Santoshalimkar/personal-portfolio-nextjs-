@@ -13,6 +13,7 @@ function Skillsright() {
     <div className="flex gap-6 flex-col">
     {Backend.map((data,index)=>(
      <Progress
+     key={index}
       size="md"
       radius="sm"
       classNames={{
