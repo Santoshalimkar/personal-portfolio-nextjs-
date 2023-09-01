@@ -37,7 +37,7 @@ function Resumesection() {
   return (
     <div className="bg-[#ecf0f3] h-auto pt-24 ">
       <div className="text-center mx-auto ">
-        <p className="uppercase tracking-widest text-xs font-thin mb-4 leading-3 text-[#f9004d]">
+        <p className="uppercase tracking-widest text-xs font-medium md:font-thin mb-4 leading-3 text-[#f9004d]">
           3+ YEARS OF EXPERIENCE
         </p>
         <h1 className="text-4xl font-bold text-[#3c3e41] leading-7 tracking-wide">

@@ -42,7 +42,7 @@ const Expertimeline = () => {
   return (
   <div>
      <div className="mb-8">
-        <p className="uppercase tracking-widest text-xs font-thin mb-4 leading-3 text-[#f9004d]">
+        <p className="uppercase tracking-widest text-xs font-medium md:font-thin mb-4 leading-3 text-[#f9004d]">
           2019-2023
         </p>
         <h1 className="text-4xl font-bold text-[#3c3e41] leading-7 tracking-wide">
@@ -66,7 +66,7 @@ const Expertimeline = () => {
                    <div><button className={hoverStates[index]?"bg-[#fe024e] text-white transition-colors duration-700 h-12 w-24 p-2 rounded-md":"bg-slate-100 h-12 p-2 transition-colors duration-700 shadow-lg w-24 rounded-md text-red-500"}>{data.exp}</button></div>
                </div>
                <div>
-                <p className="md:p-8 p-4 font-normal md:text-base text-base">{data.description}</p>
+                <p className="md:p-8 p-4 font-normal md:text-base text-sm">{data.description}</p>
                </div>
            </div>
           </div>

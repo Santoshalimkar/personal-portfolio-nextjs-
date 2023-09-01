@@ -74,8 +74,8 @@ const [loading,setLoading]=useState()
             />
           </CardBody>
           <CardFooter className=" flex-col  items-start mx-6">
-            <div className="flex items-center align-middle gap-20 w-full">
-              <p className="uppercase tracking-widest text-xs font-thin  leading-3 text-[#f9004d]">
+            <div className="flex items-center align-middle gap-12 w-full">
+              <p className="uppercase tracking-widest text-xs font-medium md:font-thin  leading-3 text-[#f9004d]">
                 {value?.project_sub}
               </p>
               <small className="text-default-500 ml-12"></small>
@@ -116,7 +116,7 @@ const [loading,setLoading]=useState()
                     />
                   </div>
                   <div className="lg:w-[50%]">
-                    <p className="uppercase tracking-widest text-xs font-thin  leading-3 text-[#f9004d] mb-4">{selectedItem?.project_sub}</p>
+                    <p className="uppercase tracking-widest text-xs font-medium md:font-thin  leading-3 text-[#f9004d] mb-4">{selectedItem?.project_sub}</p>
                     <h4 className="text-3xl capitalize font-semibold mt-2 mb-4 hover:text-[#f9004d] cursor-pointer duration-400 transition-colors">
                       {selectedItem?.project_title}
                     </h4>
@@ -124,8 +124,8 @@ const [loading,setLoading]=useState()
                       {selectedItem?.project_desc}
                     </p>
                     <div className=" flex gap-8 justify-center item center mt-8">
-                    <motion.div whileHover={{y:-4}}><button onClick={onClose} className=' hovericon transition-all duration-700 bg-transparent text-red-400   shadow-md p-3 rounded-md '>Close</button></motion.div>
-                    <Link href={selectedItem?.project_link }><motion.div whileHover={{y:-4}}><button className=' hovericon transition-all duration-700 bg-transparent text-red-400   shadow-md p-3 rounded-md '>Show project</button></motion.div></Link>
+                    <motion.div whileHover={{y:-4}}><button onClick={onClose} className=' hovericon transition-all duration-700 bg-transparent text-red-400   shadow-md p-3 rounded-md w-36 md:w-52 '>Close</button></motion.div>
+                    <Link href={selectedItem?.project_link }><motion.div whileHover={{y:-4}}><button className=' hovericon transition-all duration-700 bg-transparent text-red-400   shadow-md p-3 rounded-md w-36 md:w-52'>Show project</button></motion.div></Link>
                     </div>
                   </div>
 

@@ -25,11 +25,11 @@ function Herosection() {
 
   return (
     <div className='blurback  bg-[#ecf0f3] h-auto border-b-2 p-2 pb-24  flex flex-col-reverse md:flex sm:flex-col-reverse md:flex-row justify-between z-0'>
-        <div className="mt-12 p-2 flex lg:ml-12 md:ml-12 mx-auto sm:ml-12 flex-col items-start gap-4 font-semibold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
+        <div className="mt-12 p-2 flex ml-4 lg:ml-12 md:ml-12 mx-auto sm:ml-12 flex-col items-start gap-4 font-semibold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
             
 
             <div>
-            <p className='uppercase tracking-widest text-sm font-thin text-[#4d5053]'>
+            <p className='uppercase tracking-widest text-sm  font-medium md:font-thin text-black md:text-[#4d5053]'>
               welcome to my world
             </p>
             </div>
@@ -50,7 +50,7 @@ function Herosection() {
             </div>
             
             <div className=''> 
-             <p className='text-[#4d5053] uppercase tracking-widest text-sm font-thin'>Find with me </p>
+             <p className='md:text-[#4d5053] text-black uppercase tracking-widest text-sm font-medium  md:font-thin'>Find with me </p>
                    <div className='flex justify-start items-center  gap-4 mt-12'>
 
                     <Link href="https://www.linkedin.com/in/santoshalimkar/"><motion.div whileHover={{y:-4}}><FiLinkedin className=' hovericon transition-all duration-700 bg-transparent text-black text-6xl  shadow-md p-3 rounded-md '/></motion.div></Link>
