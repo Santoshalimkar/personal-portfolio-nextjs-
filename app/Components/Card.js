@@ -120,14 +120,14 @@ export default function App() {
                             <motion.div whileHover={{ y: -4 }}>
                               <button
                                 onClick={onClose}
-                                className=" hovericon transition-all duration-700 bg-transparent text-red-400   shadow-md p-3 rounded-md w-36  lg:w-52  md:w-44 "
+                                className=" hovericon transition-all duration-700 bg-transparent text-red-400   shadow-md p-3 rounded-md w-32  lg:w-52  md:w-44 "
                               >
                                 Close
                               </button>
                             </motion.div>
                             <Link href={selectedItem?.project_link}>
                               <motion.div whileHover={{ y: -4 }}>
-                                <button className=" hovericon transition-all duration-700 bg-transparent text-red-400   shadow-md p-3 rounded-md w-36 lg:w-52 md:w-44">
+                                <button className=" hovericon transition-all duration-700 bg-transparent text-red-400   shadow-md p-3 rounded-md w-32 lg:w-52 md:w-44">
                                   Show project
                                 </button>
                               </motion.div>
