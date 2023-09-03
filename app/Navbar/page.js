@@ -9,7 +9,6 @@ import { Navlink } from "../Components/Sidebar";
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
 
-
 export default function Navbar() {
   const pathname = usePathname();
 
