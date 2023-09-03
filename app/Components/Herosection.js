@@ -34,8 +34,8 @@ function Herosection() {
             </p>
             </div>
             <div>
-              <h2 className='text-3xl md:text-5xl  text-[#1e2125]'>
-              Hi, I’m <span className='text-[#ff014f]'>Santosh Alimkar</span> 
+              <h2 className='text-2xl md:text-5xl  text-[#1e2125]'>
+              Hi, I’m <span className='text-[#ff014f] ml-2'>Santosh Alimkar</span> 
               </h2>
               <h2 className='text-2xl md:text-5xl  text-[#ff014f] mt-2'>
               a<span className='text-[#1e2125] text-2xl md:text-4xl ml-4'>{text}</span> 

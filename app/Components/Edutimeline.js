@@ -39,7 +39,7 @@ const Edutimeline = () => {
       ];
   
   return (
-  <div>
+  <div className="mx-auto">
      <div className="mb-8">
         <p className="uppercase tracking-widest text-xs font-medium md:font-thin mb-4 leading-3 text-[#f9004d]">
           2014-2019
@@ -54,7 +54,7 @@ const Edutimeline = () => {
           <div
             onMouseEnter={() => handleMouseEnter(index)}
             onMouseLeave={() => handleMouseLeave(index)}
-            className="gradient2 md:w-[500px] w-[20rem] md:h-auto h-auto p-2 grad shadow-md  rounded-lg transition-colors duration-700 bg-transparent"
+            className="gradient2 md:w-[500px] w-[19rem] md:h-auto h-auto p-2  shadow-md rounded-lg transition-colors duration-700 bg-transparent"
           >
            <div>
                <div className=" border-b flex justify-around items-center">

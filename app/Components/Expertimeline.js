@@ -40,7 +40,7 @@ const Expertimeline = () => {
       ];
   
   return (
-  <div>
+  <div className="mx-auto">
      <div className="mb-8">
         <p className="uppercase tracking-widest text-xs font-medium md:font-thin mb-4 leading-3 text-[#f9004d]">
           2019-2023
@@ -55,7 +55,7 @@ const Expertimeline = () => {
         <div
             onMouseEnter={() => handleMouseEnter(index)}
             onMouseLeave={() => handleMouseLeave(index)}
-            className="gradient2 md:w-[500px] w-[20rem] md:h-auto h-auto p-2 grad shadow-md  rounded-lg transition-colors duration-700 bg-transparent"
+            className="gradient2 md:w-[500px] w-[19rem] md:h-auto h-auto p-2 mx-auto shadow-md  rounded-lg transition-colors duration-700 bg-transparent"
           >
            <div>
                <div className=" border-b flex justify-around items-center">
