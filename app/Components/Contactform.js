@@ -83,7 +83,7 @@ const Contactform = () => {
           </div>
 
           <div className="mt-4 p-2 ">
-            <p className="uppercase tracking-widest text-xs font-medium md:font-thinmb-4 leading-3 md:text-[#3c3e41] text-black">
+            <p className="uppercase tracking-widest text-xs font-medium md:font-thin mb-4 leading-3 md:text-[#3c3e41] text-black">
               EMAIL
             </p>
             <input
