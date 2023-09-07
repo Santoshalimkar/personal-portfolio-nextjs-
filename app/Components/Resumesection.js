@@ -13,7 +13,7 @@ const style = {
   Button4:
     "sm:w-36 lg:w-72 hoverbtn rounded-r-lg outline-0 font-medium leading-4 text-sm transition-all duration-75 h-16 md:w-48  p-4 m-0  md:bg-gradient-to-r from-[#f6f8f9] to-[#fcfdfd] box-border ml-0",
   active:
-    "sm:w-36 lg:w-72 hoverbtn1  outline-0 font-medium leading-4 text-sm transition-all duration-75 h-16 md:w-48  p-4 m-0 md:bg-gradient-to-r from-[#e5eaee] to-[#eef1f4] box-border ml-0",
+    "sm:w-36 lg:w-72 hoverbtn1    font-medium leading-4 text-sm transition-all duration-75 h-16 md:w-48  p-4 m-0 md:bg-gradient-to-r from-[#e5eaee] to-[#eef1f4]  ml-0",
   notactive:
     "sm:w-36 lg:w-72 hoverbtn rounded-l-lg  outline-0 font-medium leading-4 text-sm transition-all duration-75 h-16 md:w-48  p-4 m-0 md:bg-gradient-to-r from-[#e5eaee] to-[#e5eaee] box-border ml-0",
 };

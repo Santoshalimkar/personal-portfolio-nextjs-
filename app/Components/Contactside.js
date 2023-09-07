@@ -33,7 +33,7 @@ const Contactside = () => {
           Email : santosh.sa4d@gmail.com
         </span>
         <div className="">
-          <p className="text-[#4d5053] uppercase tracking-widest text-sm font-thin">
+          <p className="text-[#4d5053] uppercase tracking-widest text-sm font-medium md:font-thin">
             Find with me{" "}
           </p>
           <div className="flex justify-start items-center  gap-4 mt-8 mb-8">

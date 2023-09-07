@@ -7,7 +7,7 @@ function About() {
     <div className="blurback bg-[#ecf0f3] h-auto w-full border-b-2 ">
       <div>
         <div className="text-center mx-auto p-12">
-          <p className="uppercase tracking-widest text-xs font-thin mb-4 leading-3 text-[#f9004d]">
+          <p className="uppercase tracking-widest text-xs font-medium md:font-thin mb-4 leading-3 text-[#f9004d]">
             3+ YEARS OF EXPERIENCE
           </p>
           <h1 className="md:text-4xl text-3xl font-bold text-[#3c3e41] leading-7 tracking-wide">
