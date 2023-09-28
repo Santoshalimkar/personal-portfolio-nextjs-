@@ -80,8 +80,7 @@ export default function Navbar() {
                 <ThemeSwitcher/>
               </div>
             </ul>
-            <div className="flex items-center lg:hidden gap-4  md:hidden sm:hidden p-3 text-2xl text-[#ff014f]">
-              <ThemeSwitcher/>
+            <div className="flex items-center lg:hidden   md:hidden sm:hidden p-3 text-2xl text-[#ff014f]">
               <Menuicon toggle={toggle} setToggle={setToggle} />
             </div>
           </div>
