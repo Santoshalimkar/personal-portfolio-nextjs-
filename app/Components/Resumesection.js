@@ -15,7 +15,7 @@ const style = {
   active:
     "sm:w-36 lg:w-72 hoverbtn1    font-medium leading-4 text-sm transition-all duration-75 h-16 md:w-48  p-4 m-0 md:bg-gradient-to-r from-[#e5eaee] to-[#eef1f4]  ml-0",
   notactive:
-    "sm:w-36 lg:w-72 hoverbtn rounded-l-lg  outline-0 font-medium leading-4 text-sm transition-all duration-75 h-16 md:w-48  p-4 m-0 md:bg-gradient-to-r from-[#e5eaee] to-[#e5eaee] box-border ml-0",
+    "sm:w-36 lg:w-72 hoverbtn dark:bg-slate-800 rounded-l-lg  outline-0 font-medium leading-4 text-sm transition-all duration-75 h-16 md:w-48  p-4 m-0 md:bg-gradient-to-r from-[#e5eaee] to-[#e5eaee] box-border ml-0",
 };
 
 function Resumesection() {
@@ -35,7 +35,7 @@ function Resumesection() {
   };
 
   return (
-    <div className="bg-[#ecf0f3] h-auto pt-24 ">
+    <div className="bg-[#ecf0f3] dark:bg-slate-900 h-auto pt-24 ">
       <div className="text-center mx-auto ">
         <p className="uppercase tracking-widest text-xs font-medium md:font-thin mb-4 leading-3 text-[#f9004d]">
           3+ YEARS OF EXPERIENCE
@@ -44,7 +44,7 @@ function Resumesection() {
           My Resume
         </h1>
       </div>
-      <div className=" flex justify-center mt-8 flex-wrap shadow-md rounded-xl w-[96%] lg:w-[92%]  mx-auto md:bg-gradient-to-r from-[#e5eaee] to-[#fcfdfd] ">
+      <div className=" flex justify-center mt-8 dark:bg-slate-900 flex-wrap shadow-md rounded-xl w-[96%] lg:w-[92%]  mx-auto md:bg-gradient-to-r from-[#e5eaee] to-[#fcfdfd] ">
         <button
           onClick={button1}
           className={tab === 1 ? style.active : style.notactive}

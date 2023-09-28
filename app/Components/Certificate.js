@@ -57,12 +57,12 @@ const Certificate = () => {
     <div className='h-auto flex flex-wrap gap-8 justify-center   mt-8 p-12'>
     {data.map((data,index)=>(
           <div key={index}
-          className='hovericon bg-[#eef1f4] shadow-lg h-[22rem] w-[22rem] transition-colors duration-400 mb-8 rounded-lg p-4 '>
+          className='hovericon bg-[#eef1f4] dark:bg-slate-900  shadow-lg h-[22rem] w-[22rem] transition-colors duration-400 mb-8 rounded-lg p-4 '>
         <motion.div
           initial={{y:0}}
           whileHover={{y:-20}}
           transition={{duration:0.5}}
-        className='flex flex-col justify-evenly gap-6  items-start p-4 '>
+        className='flex flex-col justify-evenly gap-6 dark:hover:bg-red-500 items-start p-4 '>
           <span className='text-6xl  hovericon'>{data.icon}</span>
           <h4 className='font-semibold text-2xl'>{data.certificate_name}</h4>
           <p className=' font-base text-sm'>{data.desc}</p> 

@@ -24,25 +24,25 @@ function Herosection() {
   }
 
   return (
-    <div className='blurback  bg-[#ecf0f3] h-auto border-b-2 p-2 pb-24  flex flex-col-reverse md:flex sm:flex-col-reverse md:flex-row justify-between z-0'>
+    <div className='blurback dark:bg-slate-900  bg-[#ecf0f3] h-auto dark:border-none border-b-2 p-2 pb-24  flex flex-col-reverse md:flex sm:flex-col-reverse md:flex-row justify-between z-0'>
         <div className="mt-12 p-2 flex ml-4 lg:ml-12 md:ml-12 mx-auto sm:ml-12 flex-col items-start gap-4 font-semibold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
             
 
             <div>
-            <p className='uppercase tracking-widest text-sm  font-medium md:font-thin text-black md:text-[#4d5053]'>
+            <p className='uppercase tracking-widest text-sm  font-medium md:font-thin dark:text-white text-black md:text-[#4d5053]'>
               welcome to my world
             </p>
             </div>
             <div>
-              <h2 className='text-2xl md:text-5xl  text-[#1e2125]'>
+              <h2 className='text-2xl md:text-5xl dark:text-white text-[#1e2125]'>
               Hi, I’m <span className='text-[#ff014f] ml-2'>Santosh Alimkar</span> 
               </h2>
-              <h2 className='text-2xl md:text-5xl  text-[#1e2125] mt-2'>
+              <h2 className='text-2xl md:text-5xl dark:text-white  text-[#1e2125] mt-2'>
               a<span className='text-[#ff014f] capitalize text-2xl md:text-4xl ml-4'>{text}</span> 
               </h2>
             </div>
             <div> 
-            <p className='md:w-[75%] lg:w-[75%]  font-normal text-sm text-[#3c3e41] mb-4'>
+            <p className='md:w-[75%] lg:w-[75%]  font-normal text-sm dark:text-white text-[#3c3e41] mb-4'>
             Im excited about the potential to collaborate on exciting projects. Whether its 
             a dynamic web application, an e-commerce platform, or a custom solution, Im ready to
              bring ideas to life. Lets discuss how I can contribute to your next venture!
@@ -50,12 +50,12 @@ function Herosection() {
             </div>
             
             <div className=''> 
-             <p className='md:text-[#4d5053] text-black uppercase tracking-widest text-sm font-medium  md:font-thin'>Find with me </p>
-                   <div className='flex justify-start items-center  gap-4 mt-12'>
+             <p className='md:text-[#4d5053] dark:text-white text-black uppercase tracking-widest text-sm font-medium  md:font-thin'>Find with me </p>
+                   <div className='flex justify-start items-center  gap-4 mt-12 '>
 
-                    <Link href="https://www.linkedin.com/in/santoshalimkar/"><motion.div whileHover={{y:-4}}><FiLinkedin className=' hovericon transition-all duration-700 bg-transparent text-black text-6xl  shadow-md p-3 rounded-md '/></motion.div></Link>
-                    <Link href="https://github.com/Santoshalimkar"><motion.div whileHover={{y:-4}}><AiFillGithub className=' hovericon transition-all duration-700 bg-transparent text-black text-6xl  shadow-md p-3 rounded-md '/></motion.div></Link>
-                    <Link href="https://www.freelancer.in/u/santoshsa4d"><motion.div whileHover={{y:-4}}><SiFreelancer className=' hovericon transition-all duration-700 bg-transparent text-black text-6xl  shadow-md p-3 rounded-md '/></motion.div></Link>
+                    <Link href="https://www.linkedin.com/in/santoshalimkar/"><motion.div whileHover={{y:-4}}><FiLinkedin className=' hovericon transition-all duration-700 bg-transparent dark:text-white text-black text-6xl  shadow-md p-3 rounded-md '/></motion.div></Link>
+                    <Link href="https://github.com/Santoshalimkar"><motion.div whileHover={{y:-4}}><AiFillGithub className=' hovericon transition-all duration-700 bg-transparent dark:text-white text-black text-6xl  shadow-md p-3 rounded-md '/></motion.div></Link>
+                    <Link href="https://www.freelancer.in/u/santoshsa4d"><motion.div whileHover={{y:-4}}><SiFreelancer className=' hovericon transition-all duration-700 bg-transparent dark:text-white text-black text-6xl  shadow-md p-3 rounded-md '/></motion.div></Link>
                    </div>
             </div>
           
@@ -68,10 +68,10 @@ function Herosection() {
 
         {/* personal pic  */}
 
-        <div className='z-10 flex  justify-center item-center'>
-                <div className='gradient w-80 lg:h-80 md:h-80 sm:h-80 h-80 shadow-md md:mt-28 mt-16 md:mr-16'>
+        <div className='z-10 flex  dark:bg-slate-900 justify-center item-center'>
+                <div className='gradient dark:bg-slate-900 w-80 lg:h-80 md:h-80 sm:h-80 h-80 shadow-md md:mt-28 mt-16 md:mr-16'>
 
-                <div className='relative flex items-center justify-center md:bottom-24 sm:bottom-24  bottom-24 '>
+                <div className='relative dark:bg-slate-900 flex items-center justify-center md:bottom-24 sm:bottom-24  bottom-24 '>
                       <Image className='w-full h-[auto] sm:h-[auto] md:h-[auto] lg:h-[auto]' src={pic} alt='perpic' />
                 </div>
                 </div>

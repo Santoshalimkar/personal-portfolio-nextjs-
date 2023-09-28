@@ -53,7 +53,7 @@ const Contactform = () => {
 
   return (
     <>
-      <div className="rounded-md gradient md:w-[55%] w-full md:m-0 mt-4 h-auto shadow-lg mx-auto">
+      <div className="rounded-md  dark:bg-slate-900 md:w-[55%] w-full md:m-0 mt-4 h-auto shadow-lg mx-auto">
         <div className="p-8">
           <div className="flex justify-around gap-4 items-center flex-col sm:flex-col md:flex-row">
             <div className="w-full p-2">
@@ -61,7 +61,7 @@ const Contactform = () => {
                 YOUR NAME
               </p>
               <input
-                className="border-2 h-[55px]  w-full rounded-md focus:outline-[#f9004d] p-2"
+                className="border-2 h-[55px] dark:bg-slate-800 dark:border-none w-full rounded-md focus:outline-[#f9004d] p-2"
                 type="text"
                 id="name"
                 value={name}
@@ -73,7 +73,7 @@ const Contactform = () => {
                 PHONE NUMBER
               </p>
               <input
-                className="border-2 h-[55px] w-full rounded-md focus:outline-[#f9004d] p-2"
+                className="border-2 h-[55px] w-full rounded-md dark:bg-slate-800 dark:border-none focus:outline-[#f9004d] p-2"
                 type="text"
                 id="phone"
                 value={phone}
@@ -87,7 +87,7 @@ const Contactform = () => {
               EMAIL
             </p>
             <input
-              className=" border-2 h-[55px] w-full rounded-md focus:outline-[#f9004d] p-2"
+              className=" border-2 h-[55px] w-full rounded-md dark:bg-slate-800 dark:border-none focus:outline-[#f9004d] p-2"
               type="text"
               id="name"
               value={email}
@@ -99,7 +99,7 @@ const Contactform = () => {
               SUBJECT
             </p>
             <input
-              className=" border-2 h-[55px] w-full rounded-md focus:outline-[#f9004d] p-2"
+              className=" border-2 h-[55px] w-full rounded-md dark:bg-slate-800 dark:border-none focus:outline-[#f9004d] p-2"
               type="text"
               id="name"
               value={subject}
@@ -111,7 +111,7 @@ const Contactform = () => {
               YOUR MESSAGE
             </p>
             <textarea
-              className=" border-2 h-[155px] w-full rounded-md focus:outline-[#f9004d] p-2"
+              className=" border-2 h-[155px] w-full rounded-md dark:bg-slate-800 dark:border-none focus:outline-[#f9004d] p-2"
               type="text"
               id="name"
               value={message}
@@ -121,7 +121,7 @@ const Contactform = () => {
           <div className="mt-4 p-2 text-[#f9004d]">
             <button
               onClick={sendEmail}
-              className="gradient text-[#f9004d] p-3  shadow-md rounded-md"
+              className=" dark:bg-slate-800 text-[#f9004d] p-3  shadow-md rounded-md"
             >
               SEND MESSAGE <AiOutlineArrowRight className="inline-block" />
             </button>

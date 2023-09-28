@@ -9,7 +9,7 @@ export default function Cardskeleton() {
       {array.map((val, ind) => (
         <Card
           key={ind}
-          className="w-80 md:w-80 lg:w-96 gradient h-[28rem] mb-8 mt-8 mx-auto p-6 "
+          className="w-80 md:w-80 lg:w-96 dark:bg-slate-900 h-[28rem] mb-8 mt-8 mx-auto p-6 "
         >
           <Skeleton className="rounded-lg ">
             <div className="h-64 rounded-lg bg-default-300 "></div>

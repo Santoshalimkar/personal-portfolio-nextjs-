@@ -46,20 +46,20 @@ export default function App() {
           {data.map((value, index) => (
             <motion.div
               key={index}
-              className="mx-auto"
+              className="mx-auto  dark:bg-slate-900"
               onClick={() => selectedmodel(index)}
               initial={{ opacity: 0.5, y: 100 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: false }}
               transition={{ duration: 1 }}
             >
-              <Card className="w-80 md:w-80 lg:w-96 gradient h-[28rem] mb-8 mt-8 mx-auto ">
+              <Card className="w-80 md:w-80 lg:w-96  dark:bg-slate-900 h-[28rem] mb-8 mt-8 mx-auto ">
                 <CardBody className="overflow-visible p-6 ">
                   <Image
                     width={350}
                     height={350}
                     alt={value?.project_title}
-                    className="object-fill rounded-xl h-64 w-[100%]"
+                    className="object-fill rounded-xl h-64 w-[100%] dark:opacity-30"
                     src={value?.project_image || book}
                   />
                 </CardBody>
@@ -71,7 +71,7 @@ export default function App() {
                     <small className="text-default-500 ml-12"></small>
                   </div>
                   <div>
-                    <h4 className="text-3xl capitalize font-semibold mt-2 mb-4  p-2 mr-2 hover:text-[#f9004d] cursor-pointer transition-colors duration-300">
+                    <h4 className="text-3xl dark:text-slate-500 capitalize font-semibold mt-2 mb-4  p-2 mr-2 hover:text-[#f9004d] cursor-pointer transition-colors duration-300">
                       {value?.project_title}
                     </h4>
                   </div>

@@ -4,7 +4,7 @@ import Contactform from "../Components/Contactform";
 
 const page = () => {
   return (
-    <div className="blurback bg-[#ecf0f3] h-auto w-full border-b-2 ">
+    <div className="blurback bg-[#ecf0f3] dark:bg-slate-900 dark:border-none h-auto w-full border-b-2 ">
       <div>
         <div className="text-center mx-auto p-12">
           <p className="uppercase tracking-widest text-xs font-medium md:font-thin mb-4 leading-3 text-[#f9004d]">
@@ -14,7 +14,7 @@ const page = () => {
             Contact with me
           </h1>
         </div>
-        <div className="flex flex-col mt-4 md:flex-row sm:flex-col mb-8 md:mr-4 md:p-0 p-4  ">
+        <div className="flex flex-col mt-4 md:flex-row sm:flex-col mb-8 dark:mb-0 md:mr-4 md:p-0 p-4  ">
           <Contactside />
           <Contactform />
         </div>
