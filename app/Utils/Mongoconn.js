@@ -15,4 +15,10 @@ async function connectDB() {
   }
 }
 
-export { connectDB, client };
+export default async function GetData() {
+  const db = client.db();
+  const data = await db.collection("portfolioDetails").find().toArray();
+  return data;
+}
+
+export { connectDB, client};
