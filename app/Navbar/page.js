@@ -36,7 +36,7 @@ export default function Navbar() {
               alt="perpic"
             />
           </div>
-          <div>
+          <div className="flex items-center gap-2 ">
             <ul className="hidden lg:flex md:flex sm:flex gap-6 p-2 items-center">
               <Link
                 href="/"
@@ -76,10 +76,10 @@ export default function Navbar() {
               >
                 contact
               </Link>
-              <div>
+            </ul>
+              <div className="p-1">
                 <ThemeSwitcher/>
               </div>
-            </ul>
             <div className="flex items-center lg:hidden   md:hidden sm:hidden p-3 text-2xl text-[#ff014f]">
               <Menuicon toggle={toggle} setToggle={setToggle} />
             </div>
