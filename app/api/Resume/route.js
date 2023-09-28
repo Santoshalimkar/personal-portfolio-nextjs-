@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { connectDB, client } from "../../Utils/Mongoconn";
+import { connectDB } from "../../Utils/Mongoconn";
 import GetData from "../../Utils/Mongoconn";
 
 // export default  async function GetData() {
