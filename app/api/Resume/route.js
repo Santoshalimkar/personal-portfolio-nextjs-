@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { connectDB, client } from "../../Utils/Mongoconn";
 
-export default async function GetData() {
+export  async function GetData() {
   const db = client.db();
   const data = await db.collection("portfolioDetails").find().toArray();
   return data;
